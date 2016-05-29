@@ -1,10 +1,10 @@
 /* ./src/reducers/index.js */
 
 import { combineReducers } from 'redux';
-import MyApp from './MyApp';
+import MyApp from './counter';
 
 const rootReducer = combineReducers({
-  MyApp
+  counter
 });
 
 export default rootReducer;
